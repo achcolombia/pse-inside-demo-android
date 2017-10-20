@@ -24,14 +24,14 @@ Los pasos necesarios para utilizar la biblioteca nativa android para Browser2app
 
 ## Repositorios
 
-Se debe incluir el [repositorio maven de khenshin](https://dev.khipu.com/nexus/content/repositories/browser2app) así como jcenter y el repositorio del proyecto [dsl4xml](https://github.com/steveliles/dsl4xml)
+Se debe incluir el [repositorio maven de khenshin](https://b2a.pse.com.co/nexus/content/repositories/browser2app) así como jcenter.
 
 
     allprojects {
 		repositories {
 			jcenter()
 			maven {
-				url 'https://dev.khipu.com/nexus/content/repositories/browser2app'
+				url 'https://b2a.pse.com.co/nexus/content/repositories/browser2app'
 				credentials {
 					username khenshinRepoUsername
 					password khenshinRepoPassword
@@ -46,7 +46,7 @@ Los campos khenshinRepoUsername y khenshinRepoPassword te serán proporcionados 
 
 Con los repositorios agregados puedes agregar el paquete khenshin a tu proyecto.
 
-    compile 'com.browser2app:khenshin:2.4.1'
+    compile 'com.browser2app:khenshin:2.6.6'
     
 ## Clase de tu aplicación
 
